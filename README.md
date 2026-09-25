@@ -1,16 +1,54 @@
-# React + Vite
+# TaskMate 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, minimal, and aesthetic Task Management Application built with React and Tailwind CSS. Designed for modern productivity, **TaskMate** allows users to organize tasks, assign priorities and categories, monitor completion progress in real-time, and toggle seamlessly between light and dark themes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Dynamic Task Management**: Add, complete, undo, and delete tasks dynamically with instantaneous UI updates.
+- **Input Validation**: Ensures clean data integrity by preventing blank task submissions.
+- **Priority & Categorization**: Assign priority levels (*High*, *Medium*, *Low*) and categories (*General*, *Personal*, *Work*) with live visual badges.
+- **Visual Progress Tracker**: Real-time progress bar showing the percentage and count of completed tasks dynamically.
+- **Persistent Data**: Integrated `localStorage` ensures all tasks and theme preferences persist across browser refreshes.
+- **Dark Mode Support**: Seamlessly switch between Light and Dark themes with automated system preferences detection.
+- **Responsive Design**: Fully mobile-first, responsive layout optimized across mobile, tablet, and desktop viewports.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack & Requirements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Framework**: React.js
+- **Styling**: Tailwind CSS
+- **Data Storage**: Web Browser `localStorage`
+- **Version Control**: Git & GitHub
+- **Environment**: Node.js & npm
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally on your machine.
+
+### Prerequisites
+
+Ensure you have the following installed on your computer:
+- [Node.js](https://nodejs.org/) (v16.x or higher recommended)
+- [npm](https://www.npmjs.com/) or `yarn`
+- Git
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/TaskMate.git](https://github.com/YOUR_USERNAME/TaskBuddy.git)
+   cd TaskMate
+2. **Install project dependencies:**
+   ```bash
+   npm install
+3. **Start the development server:**
+   ```bash
+   npm run dev
+4. **Open in browser:**
+   Open http://localhost:5173 (or the URL provided in your terminal) in your web browser. 
+   
